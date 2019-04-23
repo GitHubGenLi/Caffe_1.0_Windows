@@ -142,3 +142,8 @@ Should you encounter any error please post the output of the above commands by r
 ## Further Details
 
 Refer to the BVLC/caffe master branch README for all other details such as license, citation, and so on.
+
+
+Notes:
+1 build_win.cmd set WITH_NINJA=0 to solve "import_symbol.hpp"
+2 set the specific display card name to solve compute_90 problem in build_win.cmd: -DCUDA_GENERATION=Pascal ^
